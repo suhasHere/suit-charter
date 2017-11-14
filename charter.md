@@ -38,19 +38,19 @@ create standard building blocks that help interested parties implement
 and deploy a solid firmware update mechanism.
 
 ## WG Objectives
-This WG will work on developing a interoperable secure firmware upgrade solution for IoT devices that are constrained in resources (such as RAM, Flash). The solution must enable such an upgrade for the IoT devices under various deployment options (such as, deployments under constrained network access typically controlled by an Enterprise IT deparment as well as open Internet access deployments). 
+This WG will work on developing a interoperable secure firmware upgrade solution for IoT devices that are constrained in their resources (such as RAM, Flash). The solution must enable such an upgrade for the IoT devices under various deployment options (such as, deployments under constrained network access typically controlled by an Enterprise IT department as well as with open Internet access deployments). 
 
-An extensible manifest format to describe metadata about the firmware and its security properties will be developed by this WG. The solution must enable the IoT devices to locate the manifest and the update server via existing transport protocol mechanisms.
+An extensible manifest format to describe metadata about the firmware and its security properties will be developed by this WG. The solution must enable the IoT devices to locate the firmware update server (and manifest) via existing transport protocol mechanisms.
 
-In paritcular, this WG will perform  the following work:
+In particular, this WG will perform the following work:
 1. Document that defines the requirements for secure firmware upgrade solution.
 2. Define a general architecture that enables secure IoT firmware 
 upgrade describing involved elements, security threats, update server discovery and assumptions.
-3. Document that describes data model for elements that captures 
+3. Document that describes the data model for elements that captures 
 metadata and security properties about the firmware in the form of a manifest.
 4. Define one or more encoding formats for the manifest.
-5. Document describing use of exising transport and protocol mechanisms to locate and download the firmware.
-6. A best current practices document that defines firmware installation process on the IOT device.
+5. Document describing use of existing transport and protocol mechanisms to locate and download the firmware.
+6. A best current practices document that defines firmware installation process on the IoT device.
 
 This group does not aim to create a standard for a generic software
 update mechanism for use by rich operating systems, like Linux, but
