@@ -35,12 +35,13 @@ the involved entities, security threats, and assumptions.
 * One or more manifest format specifications.
 
 The initial focus of this group will be development of a manifest approach based on CMS and the ASN.1 encoding. This work will result in a revision of RFC 4108 that reflects the current best practices. Use of the ASN.1 encoding is desirable due to existing ASN.1 support in crypto libraries used within current IoT operating systems. The group may later adopt alternate manifest formats using other serialization approaches (e.g., CBOR).
+
+## Non-Goals
+This WG will not responsible for defining new transport mechanisms and protocol for downloading the manifest/firmware. 
+
 This group does not aim to create a standard for a generic software
 update mechanism for use by rich operating systems, like Linux, but
-instead this group will focus on software development practices in the
-embedded industry. "Software update solutions that target updating
-software other than the firmware binary (e.g. updating scripts) are
-also out of scope.
+instead this group will focus on software development practices in the embedded industry. "Software update solutions that target updating software other than the firmware binary (e.g. updating scripts) are also out of scope.
 
 This group will aim to maintain a close relationship with silicon vendors
 and OEMs that develop IoT operating systems.
