@@ -16,16 +16,8 @@ well as cryptographic information for protecting the firmware
 image in an end-to-end fashion.
 * The firmware image itself.
 
-RFC 4108 provides a manifest format that uses the Cryptographic Message
-Syntax (CMS) to protect firmware packages.
-
-More than ten years have passed since the publication of RFC 4108, and
-greater experience with IoT deployments has led to additional
-functionality, requiring the work done with RFC 4108 to be revisited.
-This group will focus on defining a firmware update solution for Class
-1 devices, as defined in RFC 7228, that is -- IoT devices with ~10 KiB
-RAM and ~100 KiB flash. The solution may apply to more capable devices
-as well. This group will not define any transport mechanisms.
+This group will focus on defining a firmware update solution for  devices that are constrained in the resources ( ~10 KiB
+RAM and ~100 KiB flash). The solution may apply to more capable devices as well.
 
 In June of 2016 the Internet Architecture Board organized a workshop on
 'Internet of Things (IoT) Software Update (IOTSU)', which took place at
